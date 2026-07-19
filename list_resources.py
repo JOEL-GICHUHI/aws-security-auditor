@@ -1,9 +1,3 @@
-"""
-AWS Security Auditor — Stage 1
-Connects to your AWS account and lists S3 buckets and EC2 instances.
-This is the foundation we'll build security checks on top of.
-"""
-
 import boto3
 from botocore.exceptions import ClientError
 
